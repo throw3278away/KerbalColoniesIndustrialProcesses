@@ -1,6 +1,9 @@
 # Kerbal Colonies Industrial Processes
 Patches for Kerbal Colonies for a Number of Mods
 
+### New facilities:
+* Nuclear Works: For all your nuclear processing needs. Currently reusing ISRU buildings but with double the cost.
+
 ### Currently covers:
 1. Rational Resources + CRP
    * Various resources can be mined with KC Mining Facility.[^1]
@@ -10,6 +13,7 @@ Patches for Kerbal Colonies for a Number of Mods
    * Changes EL recipes in KC to use CRP resources (e.g. MetalOre -> MetallicOre)
 3. Far Future Technologies
    * Mining LqdHe3 from KC Mining Facility.[^1]
+   * Nuclear Salt Water, Fission Particle and Fission Pellet production in Nuclear Works
 
 [^1]: Limited to planetary resources only, as KC Mining Facility is hardcoded to only check for resources in the planetary crust, not ocean, atmosphere or exosphere.
 [^2]: All EC (or similar resources) in input or output are removed, as KC will have its own power system.
