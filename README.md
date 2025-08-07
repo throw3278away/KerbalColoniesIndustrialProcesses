@@ -16,5 +16,6 @@ Patches for Kerbal Colonies for a Number of Mods
    * Nuclear Salt Water, Fission Particle and Fission Pellet production in Nuclear Works
 4. Near Future Technologies
    * Depleted fuel recycling into EnrichedUranium or XenonGas
+   * EnrichedUranium from Ore. Efficiency is terrible.
 
 [^1]: Limited to planetary resources only, as KC Mining Facility is hardcoded to only check for resources in the planetary crust, not ocean, atmosphere or exosphere.
