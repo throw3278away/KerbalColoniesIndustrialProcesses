@@ -2,7 +2,7 @@
 Patches for Kerbal Colonies for a Number of Mods
 
 ### New facilities:
-* Nuclear Works: For all your nuclear processing needs. Currently reusing ISRU buildings but with double the cost.
+* Nuclear Works: For all your nuclear processing needs. Currently reusing ISRU KK group but with double the cost. If Community Resource Pack is installed, Uraninite will be added to KC Mining Facility and EnrichedUranium from Uraninite will be added to this building.
 
 ### Currently covers:
 1. Rational Resources + CRP
