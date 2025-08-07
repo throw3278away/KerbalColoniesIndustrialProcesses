@@ -1,10 +1,20 @@
 # Kerbal Colonies Industrial Processes
-Patches for Kerbal Colonies for a Number of Mods
+Chemistry, thermodynamics, nuclear. We do them all.
+
+<img width="668" height="452" alt="pcf" src="https://github.com/user-attachments/assets/d28591f6-6e28-4e31-b9d8-cf6c65a80d4b" />
+
+This mod all a few new facilities and a large number of resource extraction and conversion recipes from other mods to Kerbal Colonies.
+
+### Requirements
+Kerbal Colonies: https://forum.kerbalspaceprogram.com/topic/227961-kerbal-colonies-v1011-hotfix-112x/
 
 ### New facilities:
-* Nuclear Works: For all your nuclear processing needs. Currently reusing ISRU KK group but with double the cost. If Community Resource Pack is installed, Uraninite will be added to KC Mining Facility and EnrichedUranium from Uraninite will be added to this building.
+#### Nuclear Works
+  For all your nuclear processing needs. Currently using KC ISRU KK group but with double the cost. If Community Resource Pack is installed, Uraninite will be added to KC Mining Facility and EnrichedUranium from Uraninite will be added to this building.
+#### Phase Conversion Facility
+  Liquid to gas and gas to liquid. Does not require Kerbals to operate.
 
-### Currently covers:
+### Resource Extraction and Conversion Recipes:
 1. Rational Resources + CRP
    * Various resources can be mined with KC Mining Facility.[^1]
    * A large number of ISRU recipes added to KC IRSU. This is acquired by parsing RRCompanion omniconverter configurations with a Python script.
