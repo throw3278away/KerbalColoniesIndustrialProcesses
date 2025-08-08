@@ -28,7 +28,5 @@ Kerbal Colonies: https://forum.kerbalspaceprogram.com/topic/227961-kerbal-coloni
    * Depleted fuel recycling into EnrichedUranium or XenonGas
    * EnrichedUranium from Ore. Efficiency is designed to be terrible.
    * Lithium from Ore. Efficiency is designed to be terrible.
-5. Sterling Systems
-   * Fissle Fuel, Fissle Pebble and refreshing of Fissle Fuel in Nuclear Works.
 
 [^1]: Limited to planetary resources only, as KC Mining Facility is hardcoded to only check for resources in the planetary crust, not ocean, atmosphere or exosphere.
