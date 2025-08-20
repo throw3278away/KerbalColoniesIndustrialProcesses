@@ -6,7 +6,13 @@ Chemistry, thermodynamics, nuclear. We do them all.
 This mod all a few new facilities and a large number of resource extraction and conversion recipes from other mods to Kerbal Colonies.
 
 ### Requirements
-Kerbal Colonies: https://forum.kerbalspaceprogram.com/topic/227961-kerbal-colonies-v1011-hotfix-112x/
+Kerbal Colonies Core
+
+KerbalColonies-ExtraplanetaryLaunchpadsConfig
+
+Both can be found on CKAN or https://forum.kerbalspaceprogram.com/topic/227961-kerbal-colonies-v1011-hotfix-112x/
+
+And at least one of the mods listed in ```Resource Extraction and Conversion Recipes``` section. Otherwise, this mod will not do anything.
 
 ### New facilities:
 #### Nuclear Works
@@ -28,5 +34,13 @@ Kerbal Colonies: https://forum.kerbalspaceprogram.com/topic/227961-kerbal-coloni
    * Depleted fuel recycling into EnrichedUranium or XenonGas
    * EnrichedUranium from Ore. Efficiency is designed to be terrible.
    * Lithium from Ore. Efficiency is designed to be terrible.
-
+5. Wild Blue Industries & Pathfinder[^2][^3]
+   * With Pathfinder installed, all buildings and upgrades will now take Equipment (equal to RocketParts) and Konkrete (equal to 4 * Ore + 4 * RocketParts). This places the construction of permanent KC colonies behind considerable logistics and/or medium/big Pathfinder bases. This patch is applied at ```LAST[zzzzKCIP]```.
+   * Production of Equipment, Konkrete and Coolant. Coolant is currently useless, as thermodynamics is not a thing in KC.
+#### Planned addtitions and changes
+6. MKS & USI (planned)
+   * With MKS installed, all buildings and upgrades will now take Special Equipment (equal to RocketParts in original recipes) and required Rocketparts will be multiplied by 4. Additionally, KC Research Compound will require 100 Prototypes to be built and updated. This places the construction of permanent KC colonies behind considerable logistics and/or medium/big MKS bases. This patch is applied at ```LAST[zzzzKCIP]```. This recipe change will take precedence over all other similar changes as long as MKS is installed.
+   * Entirety of MKS production chain is now available from ISRU facility.
 [^1]: Limited to planetary resources only, as KC Mining Facility is hardcoded to only check for resources in the planetary crust, not ocean, atmosphere or exosphere.
+[^2]: MKS patches (planned) will take precedence over all changes in this section.
+[^3]: EC generation and life support will be added once publically available KC has been updated with the proper systems.
