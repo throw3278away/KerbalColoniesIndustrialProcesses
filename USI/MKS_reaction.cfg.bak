@@ -1,0 +1,396 @@
+// Numbers taken from Atlas parts
+
+// --------------------------------------------------
+// Non-lifesupport recipes
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-ColonySupplies
+	displayName = MKS ColonySupplies
+	inputResources
+	{
+		MaterialKits = 0.02025
+		SpecializedParts = 0.02025
+		Organics = 0.06075
+		// ElectricCharge = 202.5
+	}
+	outputResources
+	{
+		ColonySupplies = 0.10125
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-FertilizerG
+	displayName = MKS Fertilizer (G)
+	inputResources
+	{
+		Gypsum = 0.1801
+		// ElectricCharge = 270.15
+	}
+	outputResources
+	{
+		Fertilizer = 0.09005
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-FertilizerM
+	displayName = MKS Fertilizer (M)
+	inputResources
+	{
+		Minerals = 0.28145
+		// ElectricCharge = 337.74
+	}
+	outputResources
+	{
+		Fertilizer = 0.05629
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Machinery
+	displayName = MKS Machinery
+	inputResources
+	{
+		MaterialKits = 0.081
+		SpecializedParts = 0.02025
+		// ElectricCharge = 202.5
+	}
+	outputResources
+	{
+		Machinery = 0.10125
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-MaterialKitsA
+	displayName = MKS MaterialKits (Atlas)
+	inputResources
+	{
+		MetallicOre = 0.1032
+		Minerals = 0.0516
+		Substrate = 0.1032
+		// ElectricCharge = 322.5
+	}
+	outputResources
+	{
+		MaterialKits = 0.0645
+	}
+}
+// Changes the Recycling recipe to directly output MaterialKits instead of its components
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Recycle
+	displayName = MKS HE Recycle
+	inputResources
+	{
+		Recyclables = 0.15835
+		// ElectricCharge = 253.36
+	}
+	outputResources
+	{
+		MaterialKits = 0.395875
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-SpecializedPartsA
+	displayName = MKS SpecializedParts (Atlas)
+	inputResources
+	{
+		RareMetals = 0.0063
+		ExoticMinerals = 0.0063
+		Minerals = 0.0756
+		Silicates = 0.252
+		// ElectricCharge = 371.7
+	}
+	outputResources
+	{
+		SpecializedParts = 0.0315
+	}
+}
+// For consistency, use the RR recipe ratios
+// This becomes a huge buff to the Hydrates to Water recipe
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools,!RationalResources]
+{
+	name = KCIP-MKS-WaterHyd
+	displayName = MKS Water (Hyd)
+	inputResources
+	{
+		Hydrates = 0.3014
+		// ElectricCharge = 368.5
+	}
+	outputResources
+	{
+		Water = 0.209
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-WaterOre
+	displayName = MKS Water (Ore)
+	inputResources
+	{
+		Ore = 0.37475
+		// ElectricCharge = 389.74
+	}
+	outputResources
+	{
+		Water = 0.01499
+	}
+}
+// Recipe has been Atlas-ified by skipping intermediate product Metals
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-AlloysA
+	displayName = MKS Alloys (Atlas)
+	inputResources
+	{
+		MetallicOre = 0.028145 //Metals = 0.05629
+		RareMetals = 0.22516
+		// ElectricCharge = 337.74
+	}
+	outputResources
+	{
+		Alloys = 0.05629
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Electronics
+	displayName = MKS Electronics
+	inputResources
+	{
+		MaterialKits = 0.28145
+		Synthetics = 0.28145
+		// ElectricCharge = 619.19
+	}
+	outputResources
+	{
+		Electronics = 0.05629
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Prototypes
+	displayName = MKS Prototypes
+	inputResources
+	{
+		Electronics = 0.28145
+		Robotics = 0.28145
+		SpecializedParts = 0.28145
+		// ElectricCharge = 900.64
+	}
+	outputResources
+	{
+		Prototypes = 0.05629
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Robotics
+	displayName = MKS Robotics
+	inputResources
+	{
+		Alloys = 0.28145
+		MaterialKits = 0.28145
+		// ElectricCharge = 619.19
+	}
+	outputResources
+	{
+		Robotics = 0.05629
+	}
+}
+// Recipe has been Atlas-ified by skipping intermediate product Polymers
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-SyntheticsA
+	displayName = MKS Synthetics (Atlas)
+	inputResources
+	{
+		ExoticMinerals = 0.22516
+		Substrate = 0.028145 //Polymers = 0.05629
+		// ElectricCharge = 9.45
+	}
+	outputResources
+	{
+		Synthetics = 0.05629
+	}
+}
+@KCResourceConversionList[KC-EL-default]:NEEDS[KerbalColonies,KolonyTools]
+{
+	@recipeName ^= :$:,KCIP-MKS-ColonySupplies,KCIP-MKS-FertilizerG,KCIP-MKS-FertilizerM,KCIP-MKS-Machinery,KCIP-MKS-MaterialKitsA,KCIP-MKS-Recycle,KCIP-MKS-SpecializedPartsA,KCIP-MKS-WaterOre,KCIP-MKS-AlloysA,KCIP-MKS-Electronics,KCIP-MKS-Prototypes,KCIP-MKS-Robotics,KCIP-MKS-SyntheticsA:
+}
+@KCResourceConversionList[KC-EL-default]:NEEDS[KerbalColonies,KolonyTools,!RationalResources]
+{
+	@recipeName ^= :$:,KCIP-MKS-WaterHyd:
+}
+// --------------------------------------------------
+// Greenhouse recipes
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-Agroponics
+	displayName = MKS Agroponics
+	inputResources
+	{
+		Mulch = 0.0307
+		Fertilizer = 0.00307
+		// ElectricCharge = 128.22
+		Machinery = 0.0002
+	}
+	outputResources
+	{
+		Supplies = 0.03377
+		Recyclables = 0.0002
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-CultivateD
+	displayName = MKS Cultivate (D)
+	inputResources
+	{
+		Dirt = 0.06475
+		Water = 0.06475
+		Fertilizer = 0.000259
+		// ElectricCharge = 132.35
+		Machinery = 0.0002
+	}
+	outputResources
+	{
+		Supplies = 0.00259
+		Recyclables = 0.0002
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-CultivateS
+	displayName = MKS Cultivate (S)
+	inputResources
+	{
+		Substrate = 0.061
+		Water = 0.061
+		Fertilizer = 0.00061
+		// ElectricCharge = 128.71
+		Machinery = 0.0002
+	}
+	outputResources
+	{
+		Supplies = 0.0061
+		Recyclables = 0.0002
+	}
+}
+@KCResourceConversionList[KCIP-Greenhouse]:NEEDS[KerbalColonies,KolonyTools]
+{
+	@recipeName ^= :$:KCIP-MKS-Agroponics,KCIP-MKS-CultivateD,KCIP-MKS-CultivateS,:
+}
+// --------------------------------------------------
+// Agriculture recipes
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-AgricultureD
+	displayName = MKS Agriculture (D)
+	inputResources
+	{
+		Dirt = 0.061
+		Water = 0.061
+		Fertilizer = 0.000122
+		// ElectricCharge = 128.22
+		Machinery = 0.0002
+	}
+	outputResources
+	{
+		Organics = 0.0061
+		Recyclables = 0.0002
+	}
+}
+KCResourceConversionRate:NEEDS[KerbalColonies,KolonyTools]
+{
+	name = KCIP-MKS-AgricultureS
+	displayName = MKS Agriculture (S)
+	inputResources
+	{
+		Substrate = 0.05575
+		Water = 0.05575
+		Fertilizer = 0.000223
+		// ElectricCharge = 122.87
+		Machinery = 0.0002
+	}
+	outputResources
+	{
+		Organics = 0.01115
+		Recyclables = 0.0002
+	}
+}
+@KCResourceConversionList[KCIP-Agriculture]:NEEDS[KerbalColonies,KolonyTools]
+{
+	@recipeName ^= :$:KCIP-MKS-AgricultureD,KCIP-MKS-AgricultureS,:
+}
+// --------------------------------------------------
+// Universal patches
+// Add Machinery input and Recyclables output to KC all recipes
+@KCResourceConversionRate[*]:NEEDS[KerbalColonies,KolonyTools]:LAST[zzzzKCIP]
+{
+	@inputResources:HAS[!Machinery]
+	{
+		Machinery = 0.0012
+	}
+	@outputResources:HAS[!Recyclables]
+	{
+		%Recyclables = 0.0012
+	}
+}
+// Changes to EL default recipes
+@KCResourceConversionRate[KC-EL-Ore2LfOx]:NEEDS[KerbalColonies,KolonyTools]:LAST[zzzzKCIP]
+{
+	@displayName = MKS Ore to LFOx
+	@inputResources
+	{
+		@Ore = 0.335
+		// ElectricCharge = 368.5
+	}
+	@outputResources
+	{
+		@LiquidFuel = 0.015075
+		@Oxidizer = 0.018425
+	}
+}
+@KCResourceConversionRate[KC-EL-Ore2Lf]:NEEDS[KerbalColonies,KolonyTools]:LAST[zzzzKCIP]
+{
+	@displayName = MKS Ore to LF
+	@inputResources
+	{
+		@Ore = 0.2815
+		// ElectricCharge = 337.8
+	}
+	@outputResources
+	{
+		@LiquidFuel = 0.0563
+	}
+}
+@KCResourceConversionRate[KC-EL-Ore2Ox]:NEEDS[KerbalColonies,KolonyTools]:LAST[zzzzKCIP]
+{
+	@displayName = MKS Ore to Ox
+	@inputResources
+	{
+		@Ore = 0.2815
+		// ElectricCharge = 337.8
+	}
+	@outputResources
+	{
+		@Oxidizer = 0.0563
+	}
+}
+@KCResourceConversionRate[KC-EL-Ore2Monoprop]:NEEDS[KerbalColonies,KolonyTools]:LAST[zzzzKCIP]
+{
+	@displayName = MKS Ore to Monoprop
+	@inputResources
+	{
+		@Ore = 0.2815
+		// ElectricCharge = 337.8
+	}
+	@outputResources
+	{
+		@MonoPropellant = 0.0563
+	}
+}
