@@ -24,7 +24,9 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
 #### Agriculture Facility
   Agriculture facility for more advanced organic material manufacture.
 #### Logistics Warehouse
-  Storage facilities with huge capacities. Recommended to be built first if you have MKS.
+  Storage facilities with 10x the capacity. Recommended to be built first if you have MKS.
+#### Large Hanger
+  A very large hanger facility. Can only store 1 vehicle, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships on Mun or Minmus.
 
 ### Resource Extraction and Conversion Recipes:
 1. Rational Resources + CRP
