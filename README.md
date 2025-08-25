@@ -27,6 +27,8 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
   Storage facilities with 10x the capacity. Recommended to be built first if you have MKS.
 #### Large Hanger
   A very large hanger facility. Can only store 1 vehicle, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships on Mun or Minmus.
+#### "Better than SE" Flare Stack
+  For automatic voiding of resources. Having options to void extra resources is simple a good design, and practically required when there is a lack of production balancing system. Voiding recipe always has an input of 1000, and this would actually keep some resources available due to how KC processes the recipes. Please note that during high time warp, this threshold is also hugely inflated. Temporally lowering the time warp would get rid of a lot of the leftover resources.
 
 ### Resource Extraction and Conversion Recipes:
 1. Rational Resources + CRP
