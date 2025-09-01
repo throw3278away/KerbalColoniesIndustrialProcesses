@@ -8,15 +8,17 @@ This mod all a few new facilities and a large number of resource extraction and 
 ### Requirements
 Kerbal Colonies Core
 
-KerbalColonies-ExtraplanetaryLaunchpadsConfig
+KerbalColonies-ELPConfig
 
 Both can be found on CKAN or https://forum.kerbalspaceprogram.com/topic/227961-kerbal-colonies-v1011-hotfix-112x/
+
+Patch Manager: CKAN or https://forum.kerbalspaceprogram.com/topic/163072-112x-patchmanager/
 
 And at least one of the mods listed in ```Resource Extraction and Conversion Recipes``` section. Otherwise, this mod will not do anything.
 
 ### New facilities:
-#### Nuclear Works
-  For all your nuclear processing needs. Currently using KC ISRU KK group but with double the cost. If Community Resource Pack is installed, Uraninite will be added to KC Mining Facility and EnrichedUranium from Uraninite will be added to this building.
+#### Advanced ISRU
+  For all your nuclear processing and advanced ISRU recipe needs needs. Currently using KC ISRU KK group but with double the cost. If Community Resource Pack is installed, Uraninite will be added to KC Mining Facility and EnrichedUranium from Uraninite will be added to this building.
 #### Phase Conversion Facility
   Liquid to gas and gas to liquid. Does not require Kerbals to operate.
 #### Greenhouse
@@ -24,11 +26,13 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
 #### Agriculture Facility
   Agriculture facility for more advanced organic material manufacture.
 #### Logistics Warehouse
-  Storage facilities with 10x the capacity. Recommended to be built first if you have MKS.
+  Storage facilities with 10x the capacity. Recommended to be built first if you have MKS. A very large interaction range.
 #### Large Hanger
-  A very large hanger facility. Can only store 1 vehicle, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships on Mun or Minmus.
+  A very large hanger facility. Can only store 1 vehicle, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships from the surface of Mun or Minmus.
 #### "Better than SE" Flare Stack
   For automatic voiding of resources. Having options to void extra resources is simple a good design, and practically required when there is a lack of production balancing system. Voiding recipe always has an input of 1000, and this would actually keep some resources available due to how KC processes the recipes. Please note that during high time warp, this threshold is also hugely inflated. Temporally lowering the time warp would get rid of a lot of the leftover resources.
+#### ENP
+  A starter fission reactor that acts more like a fuel cell, terrible efficiency and no production throttling. A very good choice for CRP players. Optional patch to swap out the Fuel Cell generator that comes with CAB with Patch Manager. Default active for CRP players.
 
 ### Resource Extraction and Conversion Recipes:
 1. Rational Resources + CRP
@@ -42,18 +46,17 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
    * Nuclear Salt Water, Fission Particle and Fission Pellet production in Nuclear Works
 4. Near Future Technologies
    * Depleted fuel recycling into EnrichedUranium or XenonGas
-   * EnrichedUranium from Ore. Efficiency is designed to be terrible.
-   * Lithium from Ore. Efficiency is designed to be terrible.
-5. Wild Blue Industries & Pathfinder[^2][^3]
-   * With Pathfinder installed, all buildings and upgrades will now take Equipment and Konkrete. This places the construction of permanent KC colonies behind considerable logistics and/or medium/big Pathfinder bases. This patch is applied at ```LAST[zzzzKCIP]```.
+   * EnrichedUranium from Ore.
+   * Lithium from Ore.
+5. Wild Blue Industries & Pathfinder[^2]
+   * With Pathfinder installed, all buildings and upgrades will now take Equipment and Konkrete. This places the construction of permanent KC colonies behind considerable logistics and/or medium/big Pathfinder bases.
    * Production of Equipment, Konkrete and Coolant. Coolant is currently useless, as thermodynamics is not a thing in KC.
-6. MKS & USI[^3]
-   * With MKS installed, all buildings and upgrades will now take SpecializedParts, MaterialKits and Machinery. This places KC Colonies in mid-to-late game, as buildings can cost 100k+ MaterialKits per upgrade or construction. Cost of CAB is reduced, for otherwise it would require almost 1 million MaterialKits.
+6. MKS & USI
+   * With MKS installed, all buildings and upgrades will now take SpecializedParts, MaterialKits and Machinery. This places KC Colonies in mid-to-late game, as buildings can cost 100k+ MaterialKits per upgrade or construction.
    * Almost all recipes in MKS are now available in ISRU, Greenhouse, and Agriculture facilities. Recipes and production speed based on Atlas (aka skipping intermediate products).
    * Almost all recipes consume Machinery, similar to MKS itself. This also extends to any recipes added by other patches or mods. Recipes in PCF, Greenhouse and Agriculture facilities have reduced Machinery consumption speed.
    * Kerbals with MKS traits can be assigned to corresponding buildings, similar to MKS (e.g. Farmer and Scientist to Greenhouse).
 #### Planned addtitions and changes
 
-[^1]: Limited to planetary resources only, as KC Mining Facility is hardcoded to only check for resources in the planetary crust, not ocean, atmosphere or exosphere.
+[^1]: Ocean and atmosphere extraction coming in a planned new facility.
 [^2]: MKS patches will take precedence over all changes in this section.
-[^3]: EC generation will be added once publically available KC has been updated with the proper systems.
