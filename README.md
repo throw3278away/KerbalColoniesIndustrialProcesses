@@ -26,15 +26,19 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
 #### Agriculture Facility
   Agriculture facility for more advanced organic material manufacture.
 #### Logistics Warehouse
-  Storage facilities with 10x the capacity. Recommended to be built first if you have MKS. A very large interaction range.
+  A large warehouse for solid nonvolatile resources. Recommended to be built first if you have MKS. A very large interaction range.
+#### Cryo Tank Array
+  A large half underground cryo tank for liquid and gas. Also has a very large interaction range. Requires EC to operate.
+#### Secured Warehouse
+  A medium warehouse for volatile resources (e.g. Uraninite, Antimatter). Also has a very large interaction range. Requires EC to operate.
 #### Large Hanger
-  A very large hanger facility. Can only store 1 vehicle, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships from the surface of Mun or Minmus.
-#### "Better than SE" Flare Stack
-  For automatic voiding of resources. Having options to void extra resources is simple a good design, and practically required when there is a lack of production balancing system. Voiding recipe always has an input of 1000, and this would actually keep some resources available due to how KC processes the recipes. Please note that during high time warp, this threshold is also hugely inflated. Temporally lowering the time warp would get rid of a lot of the leftover resources.
+  A very large hanger facility. Can store only 1 craft, as long as the size is within the vanilla physics range. Perfect for those who wants to build and launch motherships from the surface of Mun or Minmus.
+#### Flare Stack
+  For automatic voiding of resources. Having options to void extra resources is simple a good design. Voiding recipe always has an input of 100.
 #### EUP
   A starter fission reactor that acts more like a fuel cell, terrible efficiency and no production throttling. A very good choice for CRP players. Optional patch to swap out the Fuel Cell generator that comes with CAB with Patch Manager. Default active for CRP players.
-#### Partitioned Storage
-  Storage that is limited to only one resources. Since default KC storage does not have per-resource limit, overproduction will eventually flood your storage. If all of your storages are partioned to one resource only (aka lock any normal storage facilities), you can now have fully automated production line. Currently there is one caveat: upon construction of partitioned storage, any resource producers cannot put in the whitelisted resouces (and instead get voided) without first that resource existing in the facility (even if there is zero resouces). Two walk-arounds exist: save editing to add a small amount of the whitelisted resouce, or use a craft and transfer a small amount into it.  
+#### Partitioned Storage 
+  Deprecated. Will be removed in the next major update.
 #### Cryogenic Distillation Tower
   Atmospheric extraction of resouces.
 #### Accelerator Complex
