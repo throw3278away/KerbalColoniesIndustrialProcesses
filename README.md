@@ -40,6 +40,15 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
 #### Accelerator Complex
   Anti-matter manufacture facility. Requires Far Future Technologies. Consumes 20k EC/s + LqdHydrogen/Fission Particle, and requires Level 3 CAB.
 
+### Tech Tree support
+#### Stock
+Not much to say here. All new facilities have tech tree progression similar to the KC CAB.
+
+#### Community Tech Tree
+All new facilities and those that have tech tree placement in KC have been converted to support CTT. Note that they are relatively spread out, covering multiple branches (e.g. bottom branch for colonization and greenhouse, top branch for fission/fusion reactor).
+If you are using ```Hide Empty Tech Tree Nodes``` mod, make sure that in the difficulty setting, enable ```Use RDNode Settings```. Otherwise, some of the nodes will be hidden and you might not be able to upgrade/construct the facilities. This is due to HETTN
+do not consider KC facility tech tree nodes as parts.
+
 ### Resource Extraction and Conversion Recipes:
 1. Rational Resources + CRP
    * Various resources can be mined with KC Mining Facility (planetary) and Cryogenic Distillation Tower (atomspheric).
@@ -63,6 +72,7 @@ And at least one of the mods listed in ```Resource Extraction and Conversion Rec
    * Almost all recipes in MKS are now available in ISRU, Greenhouse, and Agriculture facilities. Recipes and production speed based on Atlas (aka skipping intermediate products).
    * Almost all recipes consume Machinery, similar to MKS itself. This also extends to any recipes added by other patches or mods. Recipes in PCF, Greenhouse and Agriculture facilities have reduced Machinery consumption speed.
    * Kerbals with MKS traits can be assigned to corresponding buildings, similar to MKS (e.g. Farmer and Scientist to Greenhouse).
+
 #### Planned addtitions and changes
 * Regolith sifter: He3 from moon rocks
 * Singularity research facility: Lightyear distance communication station. Hope you have an extra fusion reactor ready.
